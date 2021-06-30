@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class LoginController {
 	
 	@RequestMapping("/")
-	public void checkMVC() {
-		
+	public String checkMVC() {
+		return "login";
 	}
 
 }
